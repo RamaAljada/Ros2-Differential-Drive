@@ -34,16 +34,16 @@ To use the project:
    - `my_robot_description.zip`
    - `my_robot_controller.zip`
    - `my_robot_bringup.zip`
-   - Then extract them into the src/ folder:
-   unzip my_robot_description.zip -d my_robot_description
-   unzip my_robot_controller.zip   -d my_robot_controller
-   unzip my_robot_bringup.zip      -d my_robot_bringup
-3. Build the workspace
+3. Then extract them into the src/ folder:
+   - unzip my_robot_description.zip -d my_robot_description
+   - unzip my_robot_controller.zip   -d my_robot_controller
+   - unzip my_robot_bringup.zip      -d my_robot_bringup
+4. Build the workspace
    cd ~/ros2_ws
    colcon build --symlink-install
-4. Source the workspace
+5. Source the workspace
    source install/setup.bash
-5. Launch the simulation:
+6. Launch the simulation:
    ros2 launch my_robot_bringup robot_simulation.launch.py
 
 ## 🧠 Technologies Used
