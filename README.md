@@ -64,7 +64,7 @@ To use the project:
 - Integrated sensors for environment perception
 - Generated a map using SLAM
 - Achieved autonomous navigation using the Nav2 stack
-- 
+
 ## Robot in Gazebo Environment
 ![Differential Drive Robot](images/Differential_Drive_Robot.jpeg)  
 
